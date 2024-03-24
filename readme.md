@@ -9,3 +9,6 @@ https://smkp2bekasi.github.io/UserValidation/
 - Fully operates
 - Login function added
 - Links page added
+
+## v0.0.3
+- Obfuscated some function
