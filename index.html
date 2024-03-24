@@ -11,9 +11,9 @@
     <h2>Login Page</h2>
 
     <div id="login">
-        <label for="id">ID:</label><br>
+        <label for="id">ID Peserta:</label><br>
         <input type="text" id="id" name="id"><br>
-        <label for="nomor">Nomor:</label><br>
+        <label for="nomor">Nomor Peserta:</label><br>
         <input type="text" id="nomor" name="nomor"><br>
         <input type="submit" value="Submit" onclick="validate()">
     </div>
@@ -70,11 +70,11 @@
 
             for (let i = 0; i < participants.length; i++) {
                 if (participants[i].id == id && participants[i].nomor == nomor) {
-                    alert("Login successful");
+                    window.location.href = 'links.html';
                     return;
                 }
             }
-            alert("Login failed");
+            alert("ID/Nomor Peserta Salah!");
         }
     </script>
 </body>
