@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <style>
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            transition: 0.3s;
-            width: 40%;
-            border-radius: 5px;
-            margin: 10px;
-            cursor: pointer;
-            /* Ini akan mengubah kursor menjadi tangan saat Anda mengarahkan kursor ke kartu */
-        }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 40%;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+        /* Ini akan mengubah kursor menjadi tangan saat Anda mengarahkan kursor ke kartu */
+      }
 
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
 
-        .container {
-            padding: 2px 16px;
-        }
+      .container {
+        padding: 2px 16px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="card" onclick="cardClicked('Option1')">
-        <div class="container">
-            <h4><b>Bahasa Indonesia</b></h4>
-            <p>US 23/24 SMKS Patriot 2 Bekasi</p>
-        </div>
+      <div class="container">
+        <h4><b>Bahasa Indonesia</b></h4>
+        <p>US 23/24 SMKS Patriot 2 Bekasi</p>
+      </div>
     </div>
 
     <div class="card" onclick="cardClicked('Option2')">
-        <div class="container">
-            <h4><b>Pendidikan Agama Islam</b></h4>
-            <p>US 23/24 SMKS Patriot 2 Bekasi</p>
-        </div>
+      <div class="container">
+        <h4><b>Pendidikan Agama Islam</b></h4>
+        <p>US 23/24 SMKS Patriot 2 Bekasi</p>
+      </div>
     </div>
 
     <script>
-        function cardClicked(cardName) {
-            switch (cardName) {
-                case 'Option1':
-                    window.location.href = 'https://forms.gle/zYxypQauYHqLvuhj6';
-                    break;
-                case 'Option2':
-                    window.location.href = 'https://forms.gle/To6f45yrstdkkqxb8';
-                    break;
-                default:
-                    break;
-            }
+      function cardClicked(cardName) {
+        switch (cardName) {
+          case "Option1":
+            window.location.href = "https://forms.gle/zYxypQauYHqLvuhj6";
+            break;
+          case "Option2":
+            window.location.href = "https://forms.gle/To6f45yrstdkkqxb8";
+            break;
+          default:
+            break;
         }
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
