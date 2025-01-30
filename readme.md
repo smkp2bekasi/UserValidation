@@ -12,3 +12,7 @@ https://smkp2bekasi.github.io/UserValidation/
 
 ## v0.0.3
 - Obfuscated some function
+
+## v0.0.4 - 30 January 2025
+- Revamped login page
+- Login system not functionable
