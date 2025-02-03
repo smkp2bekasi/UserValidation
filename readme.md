@@ -6,16 +6,16 @@ https://smkp2bekasi.github.io/UserValidation/
 - Initial Release
 
 ## v0.0.2
-- Fully operates
-- Login function added
-- Links page added
+- Fully operational
+- Added login function
+- Added links page
 
 ## v0.0.3
-- Obfuscated some function
+- Obfuscated some functions
 
 ## v0.0.4
-- Revamped login page
-- Login system not functionable
+- Revamped the login page
+- Login system is currently non-functional
 
 ## v0.1.0
 - Added new features that display an error message if the user inputs an incorrect ID or password.
