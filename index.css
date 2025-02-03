@@ -1,0 +1,34 @@
+body {
+  background-color: #d4fdff; /* Warna latar belakang halaman default Bootstrap */
+  height: 100vh; /* Mengatur tinggi body untuk 100% dari viewport */
+  display: flex; /* Menggunakan flexbox untuk penataan */
+  justify-content: center; /* Menyusun konten secara horizontal di tengah */
+  align-items: center; /* Menyusun konten secara vertikal di tengah */
+  margin: 0; /* Menghilangkan margin default */
+}
+
+.login-container {
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #ffffff; /* Warna latar belakang container */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #212529; /* Warna teks judul default Bootstrap */
+}
+
+.error-message {
+  color: #dc3545; /* Warna merah untuk pesan kesalahan */
+  font-size: 0.875rem; /* Ukuran font */
+  margin-top: 0.25rem; /* Jarak atas */
+  opacity: 0; /* Mulai dengan transparan */
+  transition: opacity 0.3s ease-in; /* Animasi ease in */
+}
+
+.error-message.show {
+  opacity: 1; /* Menampilkan pesan dengan opasitas penuh */
+}
